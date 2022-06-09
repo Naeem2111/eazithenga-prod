@@ -1,23 +1,41 @@
-import Head from 'next/head'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
+import Navbar from '../components/Layouts/Navbar'
+import MainBanner from '../components/HomeOne/MainBanner'
+import Features from '../components/HomeOne/Features'
+import About from '../components/HomeOne/About'
+import WhyChooseUs from '../components/HomeOne/WhyChooseUs'
+import Services from '../components/HomeOne/Services'
+import MakeYourBusiness from '../components/Common/MakeYourBusiness'
+import WhatWeOffer from '../components/HomeOne/WhatWeOffer'
+import Testimonials from '../components/Common/Testimonials'
+import News from '../components/Common/News'
+import Footer from '../components/Layouts/Footer'
 
-export default function Home() {
-  return (
-    <div className="container">
-      <Head>
-        <title>Next.js Starter!</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+const Index = () => {
+    return (
+        <>
+            <Navbar />
+            
+            <MainBanner />
 
-      <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
-      </main>
+            <Features />
 
-      <Footer />
-    </div>
-  )
+            <About />
+
+            <WhyChooseUs />
+
+            <Services />
+
+            <MakeYourBusiness />
+
+            <WhatWeOffer />
+
+            <Testimonials />
+
+            <News />
+            
+            <Footer />
+        </>
+    )
 }
+
+export default Index
