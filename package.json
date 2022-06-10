@@ -22,7 +22,8 @@
     "react-visibility-sensor": "^5.1.1",
     "sass": "^1.49.11",
     "sweetalert2": "^11.4.8",
-    "sweetalert2-react-content": "^4.2.0"
+    "sweetalert2-react-content": "^4.2.0",
+    "animate.css": "^4.1.1"
   },
   "devDependencies": {
     "@netlify/plugin-nextjs": "^4.8.0"
