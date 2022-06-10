@@ -1,7 +1,7 @@
-// describe('sample test', () => {
-//   beforeEach(() => {
-//     cy.visit('/')
-//   })
+describe('sample test', () => {
+  beforeEach(() => {
+    cy.visit('/')
+  })
 
 //   it('displays the resources text', () => {
 //     cy.get('h1')
@@ -14,4 +14,4 @@
 //       expect($img[0].naturalWidth).to.be.greaterThan(0);
 //     })
 //   })
-// })
+})
