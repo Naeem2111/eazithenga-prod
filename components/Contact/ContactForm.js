@@ -56,7 +56,7 @@ const ContactForm = () => {
                 <div className="section-title">
                     <span>Contact Us</span>
                     <h2>Drop us a message for any query</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque quibusdam deleniti porro praesentium. Aliquam minus quisquam velit in at nam.</p>
+                    <p>We value your feedback and questions to improve your experience</p>
                 </div>
 
                 <div className="row align-items-center">

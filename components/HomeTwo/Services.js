@@ -4,7 +4,7 @@ import Link from 'next/link';
 class Services extends Component {
     render() {
         return (
-            <section className="offer-area pt-100 pb-70">
+            <section className="offer-area pt-100 pb-70" id='features'>
 			    <div className="container">
                     <div className="section-title">
                         <span>Services</span>
@@ -12,7 +12,7 @@ class Services extends Component {
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure architecto quaerat eaque sapiente accusantium ad ut explicabo consequuntur fuga quidem? Sint.</p>
                     </div>
 
-                    <div className="row">
+                    <div className="row" >
                         <div className="col-lg-4 col-sm-6">
                             <div className="single-offer">
                                 <i className="flaticon-chip"></i>

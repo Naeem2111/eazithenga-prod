@@ -1,41 +1,52 @@
-import Navbar from '../components/Layouts/Navbar'
-import MainBanner from '../components/HomeOne/MainBanner'
-import Features from '../components/HomeOne/Features'
-import About from '../components/HomeOne/About'
-import WhyChooseUs from '../components/HomeOne/WhyChooseUs'
-import Services from '../components/HomeOne/Services'
-import MakeYourBusiness from '../components/Common/MakeYourBusiness'
-import WhatWeOffer from '../components/HomeOne/WhatWeOffer'
-import Testimonials from '../components/Common/Testimonials'
-import News from '../components/Common/News'
-import Footer from '../components/Layouts/Footer'
+import React, { Component } from 'react';
+import Navbar from '../components/Layouts/Navbar';
+import MainBanner from '../components/HomeTwo/MainBanner';
+import Features from '../components/HomeTwo/Features';
+import About from '../components/HomeTwo/About';
+import Services from '../components/HomeTwo/Services';
+import Pricing from '../components/HomeTwo/Pricing';
+import Newsletter from '../components/Common/Newsletter';
+import MakeYourBusiness from '../components/Common/MakeYourBusiness';
+import Testimonials from '../components/Common/Testimonials';
+import WhatWeOffer from '../components/HomeTwo/WhatWeOffer';
+import News from '../components/Common/News';
+import Partner from '../components/Common/Partner';
+import Footer from '../components/Layouts/Footer';
 
-const Index = () => {
-    return (
-        <>
-            <Navbar />
-            
-            <MainBanner />
+class Index2 extends Component {
+    render() {
+        return (
+            <>
+                <Navbar />
 
-            <Features />
+                <MainBanner />
 
-            <About />
+                {/* <Features /> */}
 
-            <WhyChooseUs />
+                <About /> 
 
-            <Services />
+                {/* <Services /> */}
 
-            <MakeYourBusiness />
+                <Pricing />
 
-            <WhatWeOffer />
+                {/* <Newsletter /> */}
 
-            <Testimonials />
+                {/* <MakeYourBusiness /> */}
 
-            <News />
-            
-            <Footer />
-        </>
-    )
+                {/* <Testimonials /> */}
+
+                {/* <WhatWeOffer /> */}
+                
+                {/* <News /> */}
+
+                {/* <div className="pb-50">
+                    <Partner />
+                </div> */}
+
+                {/* <Footer /> */}
+            </>
+        );
+    }
 }
 
-export default Index
+export default Index2;

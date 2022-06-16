@@ -4,7 +4,7 @@ import Link from 'next/link';
 class About extends Component {
     render() {
         return (
-            <section className="about-area pb-100">
+            <section className="about-area pb-100" id="about">
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-6">
@@ -16,23 +16,23 @@ class About extends Component {
                         <div className="col-lg-6">
                             <div className="about-content">
                                 <span>About Us</span>
-                                <h2>We Complete Every Project With Extra Care As Customer Need</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel.</p>
+                                <h2>A Home for Every Trader</h2>
+                                <p>We are building a platform to enable social e-commerce with all the tools to thrive. </p>
                                
                                 <div className="row">
                                     <div className="col-lg-6 col-sm-6">
                                         <ul>
                                             <li>
                                                 <i className="flaticon-checked"></i>
-                                                Advanced caching
+                                                Store Catalog
                                             </li>
                                             <li>
                                                 <i className="flaticon-checked"></i>
-                                                Unlimited  applications
+                                                Chat Automation
                                             </li>
                                             <li>
                                                 <i className="flaticon-checked"></i>
-                                                PHP 7 ready transfer
+                                                Accepting Payments
                                             </li>
                                         </ul>
                                     </div>
@@ -41,21 +41,21 @@ class About extends Component {
                                         <ul>
                                             <li>
                                                 <i className="flaticon-checked"></i>
-                                                PHP ready serves
+                                                Enabling Escrow
                                             </li>
                                             <li>
                                                 <i className="flaticon-checked"></i>
-                                                24/7 Free extra support
+                                                Delivery
                                             </li>
                                             <li>
                                                 <i className="flaticon-checked"></i>
-                                                Optimized stack
+                                                Optimized Marketting
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
 
-                                <Link href="/about-1">
+                                <Link href="#features">
                                     <a className="default-btn">
                                         Learn More
                                     </a>
