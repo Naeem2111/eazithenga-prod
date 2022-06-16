@@ -7,8 +7,14 @@ const transporter = {
         api_key: '...'
     }
 }
-
-const mailer = nodemailer.createTransport(sgTransport(transporter));
+const mailer = nodemailer.createTransport({
+    service: 'gmail',
+    auth: {
+           user: 'naeem2111@gmail.com',
+           pass: 'tebyxpfibvedxmjf'
+       }
+   });
+//const mailer = nodemailer.createTransport(sgTransport(transporter));
 
 export default async (req, res) => {
     // console.log(req.body)
