@@ -12,6 +12,7 @@ import Head from 'next/head';
 import Loader from '../components/Shared/Loader';
 import GoTop from '../components/Shared/GoTop';
 
+
 export default class MyApp extends App {
 
     // Preloader
