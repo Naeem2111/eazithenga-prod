@@ -1,4 +1,3 @@
-import baseUrl from "../../utils/baseUrl";
 const fetch = require("node-fetch");
 
 const handler = async function () {
