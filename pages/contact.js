@@ -22,7 +22,7 @@ class Contact extends Component {
 
                 <ContactForm />
                 
-                <Footer />
+                {/* <Footer /> */}
             </>
         );
     }
